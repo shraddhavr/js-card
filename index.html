@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>card</title><script>
+                        let count=0;
+            function increment()
+            {
+                count++;
+                document.getElementById("counter").innerHTML=count;
+            }
+
+            function decrement()
+            {
+                count--;
+                document.getElementById("counter").innerHTML=count;
+            }
+
+
+        </script>
+        <style>
+        .img{
+            height:auto;
+            margin:20px;
+            border-radius:20px;
+        }
+        .img:hover{
+            box-shadow:2px 1px 2px 1px  gray;
+        }
+        .div-2{
+            background-color: rgb(208, 218, 214);
+            margin-left:100px;
+            border-radius:20px;
+            border:2px solid rgb(18, 17, 17);
+            margin-top:100px;
+        }
+        .div-3{
+             background-color:green;
+             width:30px;
+             margin-left:25px;
+             display:flex;
+             justify-content: space-between;
+        }
+        .div-1{
+            width:400px;
+        }
+        .h2{
+            padding-left:15px;
+        }
+        .div-4{
+         background-color:plum;
+         border-radius:20px;
+         width:295px;
+        }
+        .btn{
+            margin:10px;
+            width:100px;
+            height:50px;
+            background-color:green;
+            font-size:20px;
+            border:2px solid black;
+        }
+        .btn:hover{
+            box-shadow:2px 2px 1px 1px gray;
+        }
+        .dilevary{
+            display:flex;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="div-1">
+            <div class="div-2">
+                <img class="img"src="handbag.jpeg"/>
+    
+        <h1 id="counter" style="padding-left:130px;">0</h1>
+        <button onClick="increment()" style="margin-left:100px;width:30px;">+</button>
+
+        <button onClick="decrement()" style="width:30px;">-</button>
+
+                <h2 class="h2">Women Black Hobo...</h2>
+                <div class="div-3"><div style="color:beige;font-size:20px;padding:5px;">3.9
+                </div>
+                <img src="star.png "style="height:30px;"/>
+                <img src="star.png "style="height:30px;"/>
+                <img src="star.png "style="height:30px;"/>
+
+                <img src="star.png "style="height:30px;"/>
+                </div>
+                <div style="font-size:20px;padding-top:20px;margin-left:25px;">Color:<b>Black</b></div>
+                <p style="font-size:25px;padding-left:10px;">499/-(<del style="color:red;">2999</del>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <b style="color:green;">85%off</b>  </p>
+                <p style="font-size:15px;">Buy Now  and Pay Later with EMI<b style="color:blue">Activate Now</b></p>
+                  <div class="div-4">
+                   <div class="dilevary"> <img src="truck.png" style="padding-left:20px;height:50px;"/><p style="font-size:20px;">free Dilevary</p></div>
+                  </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <button class="btn">Buy Now</button>
+            </div>
+        </div>
+    </body>
+</html>
